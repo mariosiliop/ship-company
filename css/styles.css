@@ -1,0 +1,327 @@
+* {
+  margin: 0 auto;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h3 {
+  color: #0B3259;
+  font-size: 80px;
+  text-align: center;
+  padding: 0px 150px;
+  line-height: 1.4;
+}
+
+hr {
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid #0b3259;
+}
+
+.top {
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  height: 140px;
+  background: white;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.26);
+}
+
+.menu-style {
+  position: relative;
+  top: 20px;
+  width: 1020px;
+  background: white;
+  height: 100px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background: black;
+  margin: 10px;
+  float: left;
+  background: url("../photos/BR.png") center center / cover no-repeat;
+}
+
+.company-name {
+  font-size: 20px;
+  margin: 36.5px 10px;
+  font-weight: 100;
+  float: left;
+}
+
+.menu-options {
+  float: right;
+  font-size: 16px;
+  position: relative;
+  top: 38px;
+}
+
+.menu-options div {
+  float: left;
+  margin: 0px 10px;
+}
+
+.menu-options div:hover {
+  color: rgba(65, 183, 196, 1);
+  cursor: pointer;
+}
+
+.flag {
+  width: 21px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+}
+
+.introduction {
+  background-color: rgba(234, 244, 246, 1);
+  height: 1160px;
+  width: 100%;
+}
+
+.introduction-content {
+  width: 1020px;
+}
+
+.content {
+  width: 100%;
+  height: 920px;
+  position: relative;
+  top: 140px;
+}
+
+.header-message {
+  text-align: center;
+  color: #0B3259;
+  font-size: 22px;
+  line-height: 1.67;
+  margin: 25px auto;
+}
+
+.introduction-slide {
+  height: 450px;
+  background: url("../photos/ships.png") center center / cover no-repeat;
+  margin: 86px auto;
+}
+
+.about {
+  background: #5597c5;
+  background: url("../photos/about.png") center center / cover no-repeat;
+}
+
+.about-content {
+  width: 1020px;
+  height: 840px;
+}
+
+.about-message {
+  width: 520px;
+  float: left;
+  position: relative;
+  top: 70px;
+  background: rgba(11, 50, 89, 1);
+}
+
+.about-flex {
+  margin: 63px;
+}
+
+.about-flex-header {
+  color: white;
+  font-size: 40px;
+}
+
+.about-flex-message {
+  color: white;
+  margin: 50px 0px;
+  font-size: 18px;
+}
+
+.button {
+  width: 120px;
+  padding: 10px;
+  background: rgba(65, 183, 196, 1);
+  color: #f0f8f8;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(5, 156, 173);
+}
+
+.our-fleet {
+  background-color: rgba(234, 244, 246, 1);
+  height: 1130px;
+  color: white;
+}
+
+.our-fleet-content {
+  width: 1020px;
+}
+
+.our-fleet-header {
+  padding: 35px;
+  font-size: 40px;
+  text-align: center;
+  color: #0b3259;
+}
+
+.fleet {
+  width: 500px;
+  background: #0b3259;
+  float: left;
+}
+
+.fleet-background {
+  height: 400px;
+  background: #c6cece;
+}
+
+.our-fleet-footer {
+  margin: 80px;
+  font-size: 18px;
+  text-align: center;
+  color: #0b3259;
+}
+
+.fleet-button {
+  float: none;
+  margin-top: 65px;
+  background: none;
+  border: 1px solid #0b3259;
+  color: #0b3259;
+}
+
+.fleet-button:hover {
+  background: #0b3259;
+  color: white;
+}
+
+.fleet-name {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.fleet-description {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 22px;
+}
+
+.travel-slide {
+  height: 560px;
+  background: #0b3259;
+  z-index: 0;
+}
+
+.shadow {
+  background-color: black;
+  width: 100%;
+  height: 560px;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.travel-message {
+  color: white;
+  padding: 255px 0px;
+  text-align: center;
+  font-size: 37px;
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+}
+
+.ship {
+  overflow: auto;
+  width: 1020px;
+  padding: 70px;
+}
+
+.ship-tour {
+  margin: 50px;
+  color:  rgba(11, 50, 89, 1);
+  font-size: 26px;
+}
+
+.ship-date {
+  margin: 50px;
+  color:  rgba(11, 50, 89, 1);
+}
+
+.ship-message {
+  margin: 50px;
+}
+
+.contact {
+  background: rgba(11, 50, 89, 1);
+  color: white;
+}
+
+.contact-content {
+  padding: 50px;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-message {
+  line-height: 1.66;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-info {
+  margin-top: 40px;
+  overflow: auto;
+}
+
+.member-info {
+  float: left;
+}
+
+.member-message {
+  float: left;
+}
+
+.member-input {
+  height: 235px;
+  width: 500px;
+  margin-left: 38px;
+  background: rgba(11, 50, 89, 1);
+  border: 1px solid gray;
+  color: white;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.element {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background: rgba(11, 50, 89, 1);
+  border: 1px solid gray;
+  color: white;
+  text-indent: 10px;
+}
+
+.send {
+  margin-top: 20px;
+}
