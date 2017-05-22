@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1200px) {
+    /* For tablets: */
+    .introduction-content {width: 100%;}
+    .ship {width: 100%; padding: 70px 0px;}
+    .menu-style {width: 100%;}
+    .contact-content {
+      width: 100%;
+      padding: 0px;
+      text-align: center;
+    }
+    .fleet {float: none;}
+    .fleet-margin { margin: 0 auto;}
+    .our-fleet {height: 1830px;}
+    .about-message {
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    .member-message {
+      margin: 0 auto;
+      width: 500px;
+      float: none;
+    }
+    .member-info {
+      float: none;
+    }
+    .element {
+      width: 500px;
+    }
+    .member-input {
+      margin-left: 0px;
+    }
+}

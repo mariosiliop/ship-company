@@ -179,6 +179,10 @@ hr {
   float: left;
 }
 
+.fleet-margin {
+  margin-left: 20px;
+}
+
 .fleet-background {
   height: 400px;
   background: #c6cece;
