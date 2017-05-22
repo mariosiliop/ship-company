@@ -45,6 +45,9 @@ function swap_language() {
     $('.contact-header').html('Επικοινωνία');
     $('.days').html('ΔΕΥΤΕΡΑ - ΠΑΡΑΣΚΕΥΗ');
     $('.day').html('ΣΑΒΒΑΤΟ');
+    $('.capacity').html('Χωρητικότητα 200 επιβάτες');
+    $('.dimensions').html('Διαστάσεις 25μ χ 7μ');
+    $('.speed').html('Ταχύτητα 11-15 κόμβους');
   });
   $('.english').click(()=>{
     window.location.reload(true);
