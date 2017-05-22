@@ -40,7 +40,9 @@ function swap_language() {
     $('.About').html('Εμείς');
     $('.Fleet').html('Στόλος');
     $('.Resources').html('Δρομολόγια');
+    $('.button').html('Αποστολή');
     $('.Contact-btn').html('Επικοινωνία');
+    $('.contact-header').html('Επικοινωνία');
   });
   $('.english').click(()=>{
     window.location.reload(true);
