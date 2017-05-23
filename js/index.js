@@ -59,7 +59,6 @@ function swap_language() {
 var slideIndex = 0;
 
 function introduction_slide() {
-  console.log('carousel');
   var i;
   var x = document.getElementsByClassName("introduction-slide");
   for (i = 0; i < x.length; i++) {
@@ -77,7 +76,6 @@ function introduction_slide() {
 var travelSlideIndex = 0;
 
 function travel_slide() {
-  console.log('carousel');
   var i;
   var x = document.getElementsByClassName("slide-2");
   for (i = 0; i < x.length; i++) {
