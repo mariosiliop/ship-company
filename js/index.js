@@ -52,4 +52,40 @@ function swap_language() {
   $('.english').click(()=>{
     window.location.reload(true);
   })
+
+  introduction_slide();
+}
+
+var slideIndex = 0;
+
+function introduction_slide() {
+  console.log('carousel');
+  var i;
+  var x = document.getElementsByClassName("introduction-slide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(introduction_slide, 3000); // Change image every 2 seconds
+
+  travel_slide();
+
+}
+
+var travelSlideIndex = 0;
+
+function travel_slide() {
+  console.log('carousel');
+  var i;
+  var x = document.getElementsByClassName("slide-2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  travelSlideIndex++;
+  if (travelSlideIndex > x.length) {travelSlideIndex = 1}
+  x[travelSlideIndex-1].style.display = "block";
+  setTimeout(travelSlideIndex, 3000); // Change image every 2 seconds
+
 }
