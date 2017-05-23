@@ -335,3 +335,7 @@ hr {
 .send {
   margin-top: 20px;
 }
+
+.Home:hover {
+  cursor: pointer;
+}
