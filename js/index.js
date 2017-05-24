@@ -53,24 +53,17 @@ function swap_language() {
     window.location.reload(true);
   })
 
-  introduction_slide();
+  travel_slide();
+  start_slide();
+}
+function start_slide(){
+  $('.slideshow-wrapper ul').css('animation-play-state', 'running');
+  setTimeout(stop_slide, 3000);
 }
 
-var slideIndex = 0;
-
-function introduction_slide() {
-  var i;
-  var x = document.getElementsByClassName("introduction-slide");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(introduction_slide, 3000); // Change image every 2 seconds
-
-  travel_slide();
-
+function stop_slide(){
+  $('.slideshow-wrapper ul').css('animation-play-state', 'paused');
+  setTimeout(start_slide, 3000);
 }
 
 var travelSlideIndex = 0;
@@ -84,6 +77,6 @@ function travel_slide() {
   travelSlideIndex++;
   if (travelSlideIndex > x.length) {travelSlideIndex = 1}
   x[travelSlideIndex-1].style.display = "block";
-  setTimeout(travelSlideIndex, 3000); // Change image every 2 seconds
+  setTimeout(travel_slide, 3000); // Change image every 2 seconds
 
 }
