@@ -73,6 +73,15 @@ hr {
   cursor: pointer;
 }
 
+a{
+  color: black;
+}
+
+a:hover {
+  color: rgba(65, 183, 196, 1);
+  cursor: pointer;
+}
+
 .flag {
   width: 21px;
   height: 15px;
