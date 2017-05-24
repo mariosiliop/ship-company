@@ -1,4 +1,5 @@
 function scroll() {
+
   $('.Home').click(()=>{
     $('html, body').animate({scrollTop: '0px'}, 1000);
   });
@@ -52,18 +53,9 @@ function swap_language() {
   $('.english').click(()=>{
     window.location.reload(true);
   })
+  event.preventDefault()
 
   travel_slide();
-  start_slide();
-}
-function start_slide(){
-  $('.slideshow-wrapper ul').css('animation-play-state', 'running');
-  setTimeout(stop_slide, 3000);
-}
-
-function stop_slide(){
-  $('.slideshow-wrapper ul').css('animation-play-state', 'paused');
-  setTimeout(start_slide, 3000);
 }
 
 var travelSlideIndex = 0;
