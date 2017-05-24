@@ -58,12 +58,12 @@ function swap_language() {
 }
 function start_slide(){
   $('.slideshow-wrapper ul').css('animation-play-state', 'running');
-  setTimeout(stop_slide, 2990);
+  setTimeout(stop_slide, 3000);
 }
 
 function stop_slide(){
   $('.slideshow-wrapper ul').css('animation-play-state', 'paused');
-  setTimeout(start_slide, 2990);
+  setTimeout(start_slide, 3000);
 }
 
 var travelSlideIndex = 0;
