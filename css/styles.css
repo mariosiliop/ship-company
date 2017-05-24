@@ -358,7 +358,7 @@ a:hover {
 .slideshow-wrapper ul {
 	margin:0;
 	padding:0;
-	width: 5000px; /* 710 * 4 */
+	width: 4080px; /* 710 * 4 */
 	-webkit-animation: slideshow 12s infinite;
 	-moz-animation: slideshow 12s infinite;
 	-o-animation: slideshow 12s infinite;
