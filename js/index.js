@@ -1,23 +1,27 @@
 function scroll() {
 
+  $( window ).resize(()=>{
+    
+  })
+
   $('.Home').click(()=>{
     $('html, body').animate({scrollTop: '0px'}, 1000);
   });
 
   $('.About').click(()=>{
-    $('html, body').animate({scrollTop: '1020px'}, 1000);
+    $('html, body').animate({scrollTop: '860px'}, 1000);
   });
 
   $('.Fleet').click(()=>{
-    $('html, body').animate({scrollTop: '1860px'}, 1000);
+    $('html, body').animate({scrollTop: '1700px'}, 1000);
   });
 
   $('.Resources').click(()=>{
-    $('html, body').animate({scrollTop: '3090px'}, 1000);
+    $('html, body').animate({scrollTop: '2830px'}, 1000);
   });
 
   $('.Contact-btn').click(()=>{
-    $('html, body').animate({scrollTop: '4800px'}, 1000);
+    $('html, body').animate({scrollTop: '5000px'}, 1000);
   });
 
   swap_language();
