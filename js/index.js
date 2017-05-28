@@ -1,7 +1,10 @@
 function scroll() {
 
-  $( window ).resize(()=>{
-    
+  $('.send').click( () => {
+    $.ajax({
+      url: '/mail',
+      type: 'post'
+    })
   })
 
   $('.Home').click(()=>{

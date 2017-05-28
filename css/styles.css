@@ -18,6 +18,11 @@ hr {
   border: 1px solid #0b3259;
 }
 
+.hr {
+  border: 1px solid #41c7df;
+  margin-top: 40px;
+}
+
 .top {
   width: 100%;
 }
@@ -415,4 +420,9 @@ a:hover {
   62.5% { margin-left: -200%; }
   75% 	{ margin-left: -300%; }
   87.5% { margin-left: -300%; }
+}
+
+.informations {
+  margin-top: 40px;
+  color: gray;
 }
