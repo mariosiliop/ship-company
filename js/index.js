@@ -10,7 +10,7 @@ function scroll() {
     $.ajax({
       url: '/mail',
       type: 'post',
-      data {name:name, mail:mail, phone:phone, addr: address, message:message}
+      data: {name:name, mail:mail, phone:phone, addr: address, message:message}
     })
   })
 
