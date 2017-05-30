@@ -1,9 +1,16 @@
 function scroll() {
 
   $('.send').click( () => {
+    var name = $('#name').val();
+    var mail = $('#mail').val();
+    var phone = $('#phone').val();
+    var address = $('#address').val();
+    var message = $('#message').val();
+    console.log(name);
     $.ajax({
       url: '/mail',
-      type: 'post'
+      type: 'post',
+      data {name:name, mail:mail, phone:phone, addr: address, message:message}
     })
   })
 
